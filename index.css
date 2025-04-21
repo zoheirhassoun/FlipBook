@@ -53,7 +53,7 @@ body {
 .back {
     flex: none;
     width: 100%;
-    padding: 2rem;
+    padding: 0em;  /* حل مشكلة حجم الصورة مع الكتاب*/
     backface-visibility: hidden;
     background-color: #fff;
     /* Fix backface visibility Firefox: */

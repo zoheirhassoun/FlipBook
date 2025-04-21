@@ -1,6 +1,5 @@
-// https://stackoverflow.com/a/76978444/383904
 const flipBook = (elBook) => {
-    elBook.style.setProperty("--c", 0); // Set current to first page
+    elBook.style.setProperty("--c", 7); // Set current to first page
     elBook.querySelectorAll(".page").forEach((page, i) => {
         page.style.setProperty("--i", i);
         page.addEventListener("click", (evt) => {
